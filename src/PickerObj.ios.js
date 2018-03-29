@@ -32,9 +32,8 @@ export default class PickerObj extends PureComponent {
     const labels = getPropArrFromChildren(children, 'label');
     const values = getPropArrFromChildren(children, 'value');
 
-    const defaultStyle = {
-      height: '100%',
-    };
+    const defaultStyle = {};
+
     const defaultItemStyle = {
       fontSize: 18,
       color: '#007AFF',
